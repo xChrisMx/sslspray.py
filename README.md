@@ -1,7 +1,6 @@
 # sslspray.py
 
-Subnet-wide SSL/TLS protocol-version sweep, built the same way as
-`ssh_vuln_scan.py` and `quantum_readiness_spray.py`: masscan for fast
+Subnet-wide SSL/TLS protocol-version sweep: masscan for fast
 discovery, then a worker pool for the actual assessment, with the same live
 progress bar / logging conventions. Single Python file — scan, parse, CSV,
 and `.xlsx` are all in it.
